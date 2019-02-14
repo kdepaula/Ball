@@ -11,7 +11,8 @@ public class Ball extends JComponent
 	
 	public Ball()
 	{
-		ball = new Ellipse2D.Double(20, 20, 10, 10);
+		ball = new Ellipse2D.Double(0, 0, 10, 10);
+		this.setSize(11, 11);
 	}
 	
 	public void paintComponent(Graphics g)
